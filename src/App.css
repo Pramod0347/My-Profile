@@ -1,0 +1,48 @@
+/* CSS SETUP*/
+
+:root {
+  --font-body-family: "Inter", sans-serif;
+  --font-body-style: "normal";
+  --font-body-weight: "400";
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  font-size: 1.4rem;
+  letter-spacing: 0.04rem;
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
+  line-height: normal;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+.font-text-primary {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-text-secondary {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-text-ternary {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
